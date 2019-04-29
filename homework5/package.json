@@ -1,0 +1,35 @@
+{
+  "name": "homework1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --config webpack.config.js",
+    "start:dev": "webpack-dev-server"
+  },
+  "author": "Wojciech Moczydlowski",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^2.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.7.1",
+    "package": "^1.0.1",
+    "script-loader": "^0.7.2",
+    "style-loader": "^0.23.1"
+  },
+  "browsersList": "> 0.25%,not dead"
+}
